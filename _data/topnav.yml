@@ -1,0 +1,28 @@
+## Topnav single links
+## if you want to list an external url, use external_url instead of url. the theme will apply a different link base.
+topnav:
+- title: Topnav
+  items:
+    - title: GitHub
+      external_url: https://github.com/yoptimization
+    - title: About
+      url: /about
+    - title: Install
+      url: /install
+    - title: Examples
+      url: /examples
+
+#Topnav dropdowns
+topnav_dropdowns:
+- title: Topnav dropdowns
+  folders:
+    - title: Manual
+      folderitems:
+        - title: Getting started
+          url: /gettingStarted
+        - title: YopSystem
+          url: /yopSystem
+        - title: Optimal control
+          url: /yopOcp
+        - title: Simulation
+          url: /yopSimulator

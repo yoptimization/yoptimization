@@ -1,0 +1,206 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: sidebar
+  product: Yop
+  folders:
+
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage.html
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage.html
+      output: pdf
+      type: frontmatter
+
+  - title: About
+    output: web, pdf
+    folderitems:
+
+    - title: About Yop
+      url: /about
+      output: web, pdf
+
+    - title: Citing Yop
+      url: /citations
+      output: web, pdf
+
+  - title: Navigating Yop
+    output: web, pdf
+    folderitems:
+
+    - title: Navigating yoptimization.com
+      url: /keywords
+      output: web, pdf
+
+    - title: Navigating the GitHub 
+      url: /github
+      output: web, pdf
+
+  - title: Install
+    output: web, pdf
+    folderitems:
+
+    - title: Installation guide
+      url: /install
+      output: web, pdf
+
+  - title: Getting started
+    output: web, pdf
+    folderitems:
+
+    - title: Getting started
+      url: /gettingStarted
+      output: web, pdf
+      type: homepage
+
+  - title: YopSystem
+    output: web, pdf
+    folderitems:
+
+    - title: Overview
+      url: /yopSystemOverview
+      output: web, pdf
+
+    - title: Declaration
+      url: /yopSystem
+      output: web, pdf
+
+    - title: Connections
+      url: /connections
+      output: web, pdf
+
+    - title: Modeling limitations
+      url: /yopSystemLimitations
+      output: web, pdf
+
+    - title: Independent variable
+      url: /independent
+      output: web, pdf
+
+  - title: Optimal control
+    output: web, pdf
+    folderitems:
+
+    - title: Overview
+      url: /yopOcp
+      output: web, pdf
+
+    - title: Formulating OCPs
+      url: /formulatingOptimalControlProblems
+      output: web, pdf
+
+    - title: Initial guess
+      url: /initialGuess
+      output: web, pdf
+
+    - title: Solving OCPs
+      url: /solvingOcps
+      output: web, pdf
+
+  - title: Simulation
+    output: web, pdf
+    folderitems:
+
+    - title: Overview
+      url: /simulationOverview
+      output: web, pdf
+
+    - title: Simulation
+      url: /yopSimulator
+      output: web, pdf
+
+  - title: Optimal control examples
+    output: web, pdf
+    folderitems:
+
+    - title: Overview
+      url: /examples
+      output: web, pdf
+
+      subfolders:
+      - title: Bryson-Denham
+        output: web, pdf
+        subfolderitems:
+
+        - title: Bryson-Denham
+          url: /brysonDenham
+          output: web, pdf
+
+        - title: Bryson-Denham Pareto front
+          url: /brysonPareto
+          output: web, pdf
+
+        - title: Animation file
+          url: /brysonAnimation
+          output: web, pdf
+
+      - title: Goddard rocket
+        output: web, pdf
+        subfolderitems:
+
+        - title: Maximum ascent
+          url: /goddardRocket
+          output: web, pdf
+
+        - title: Maximum ascent final time free
+          url: /goddardRocketFreeTf
+          output: web, pdf
+
+        - title: Maximum ascent final time fixed
+          url: /goddardRocketFixedTf
+          output: web, pdf
+
+        - title: Landing
+          url: /goddardLanding
+          output: web, pdf
+
+        - title: Animation file
+          url: /goddardAnimate
+          output: web, pdf
+
+    - title: Bang-Bang free end time
+      url: /bangFreeTf
+      output: web, pdf
+
+    - title: Greenhouse climate control
+      url: /greenhouse
+      output: web, pdf
+
+    - title: Isoperimetric Constraint Problem
+      url: /isoConstraint
+      output: web, pdf
+
+    - title: Nondifferentiable system
+      url: /nonDiff
+      output: web, pdf
+
+      subfolders:
+      - title: Powertrain transient optimization
+        output: web, pdf
+        subfolderitems:
+
+        - title: Powertrain transient optimization
+          url: /transientOptimization
+          output: web, pdf
+
+        - title: Code block
+          url: /transientOptimizationCode
+          output: web, pdf
+
+  - title: Simulation examples
+    output: web, pdf
+    folderitems:
+
+    - title: Double integrator
+      url: /doubleIntegratorSim
+      output: web, pdf
+
+    - title: Simulation of powertrain
+      url: /transientSimulation
+      output: web, pdf
