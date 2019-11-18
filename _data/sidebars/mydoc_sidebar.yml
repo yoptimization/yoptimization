@@ -30,6 +30,14 @@ entries:
       url: /citations
       output: web, pdf
 
+  - title: Benchmark
+    output: web, pdf
+    folderitems:
+
+    - title: Goddard rocket benchmark
+      url: /goddard_benchmark
+      output: web, pdf
+
   - title: Navigating Yop
     output: web, pdf
     folderitems:
