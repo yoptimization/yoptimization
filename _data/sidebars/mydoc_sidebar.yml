@@ -34,6 +34,10 @@ entries:
     output: web, pdf
     folderitems:
 
+    - title: Benchmark
+      url: /benchmark
+      output: web, pdf
+
     - title: Goddard rocket benchmark
       url: /goddard_benchmark
       output: web, pdf
