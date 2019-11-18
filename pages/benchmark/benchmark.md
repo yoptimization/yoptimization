@@ -10,7 +10,7 @@ toc: false
 
 Yop is one of many toolboxes that can be used for optimal control. Here we will compare Yop with other alternatives to show how they differ.
 
-### Goddard rocket, solution and code comparison
-Comparison between Yop, CasADi and PROPT with the [Goddard rocket final time free example](goddardRocketFreeTf). Resulting optimal solutions are shown and the code for the different toolboxes can be found on the page. 
+### Benchmark with goddard rocket final time free
+Comparing Yop, CasADi and PROPT with the the Goddard rocket final time free example. For more information on the example click [here](goddardRocketFreeTf). The comparison can be found by clicking the link below.
 
-* [Goddard rocket, solution and code comparison](goddard_benchmark)
+* [Goddard rocket benchmark](goddard_benchmark)
