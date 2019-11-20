@@ -9,10 +9,10 @@ toc: false
 ---
 
 ## License
-Yop is open-source software distributed under the [GNU GPL license](https://www.gnu.org/licenses/gpl-3.0.en.html){:target="_blank"}.
+Yop is open-source software distributed under the [GNU LGPL license](https://www.gnu.org/licenses/lgpl-3.0.en.html){:target="_blank"}.
 
 ## Dependencies
-Yop is a MATLAB toolbox and therefore requires MATLAB. Yop is also build on [CasADi](https://web.casadi.org/){:target="_blank"}, which need to be obtained as well. Yop has no other dependencies.
+Yop is a MATLAB toolbox and therefore requires MATLAB 2014b or later. Yop is also built on [CasADi](https://web.casadi.org/){:target="_blank"}, which need to be obtained as well. Yop has no other dependencies.
 
 ## Installing CasADi
 To run Yop you are required to install CasADi. Just [**download** the latest version of CasADi (3.4.5)](https://web.casadi.org/get/){:target="_blank"}. **Un-zip the files**, **Add folders and subfolders** to your MATLAB path, and **that's it**.
