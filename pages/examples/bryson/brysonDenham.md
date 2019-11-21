@@ -7,6 +7,7 @@ permalink: brysonDenham
 folder: examples/bryson
 toc: false
 ---
+{% include note-minimal.html content="**For IFAC reviewers:** We are currently working on documentation and final testing of the new version presented in the extended abstract for IFAC WC 2020. Until this is finalized the website will have the old syntax. We expect to be finished with this by February 2020. We apologize for the inconvenience. In the meantime the code on the website is runnable and can be downloaded, and should still provide a glimpse of what the new version will be able to achieve. " %}
 
 The Bryson-Denham problem is a classical minimum energy optimal control
 problem and is presented in _Arthur E. Bryson and Yu-Chi Ho. Applied Optimal Control. Taylor Francis
