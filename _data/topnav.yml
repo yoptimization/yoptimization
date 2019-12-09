@@ -3,26 +3,28 @@
 topnav:
 - title: Topnav
   items:
-    - title: GitHub
-      external_url: https://github.com/yoptimization
     - title: About
       url: /about
-    - title: Install
-      url: /install
+    - title: Docs
+      url: /gettingStarted
     - title: Examples
       url: /examples
+    - title: Download
+      url: /install
+    - title: GitHub
+      external_url: https://github.com/yoptimization
 
-#Topnav dropdowns
-topnav_dropdowns:
-- title: Topnav dropdowns
-  folders:
-    - title: Manual
-      folderitems:
-        - title: Getting started
-          url: /gettingStarted
-        - title: YopSystem
-          url: /yopSystem
-        - title: Optimal control
-          url: /yopOcp
-        - title: Simulation
-          url: /yopSimulator
+# #Topnav dropdowns
+# topnav_dropdowns:
+# - title: Topnav dropdowns
+#   folders:
+#     - title: Manual
+#       folderitems:
+#         - title: Getting started
+#           url: /gettingStarted
+#         - title: YopSystem
+#           url: /yopSystem
+#         - title: Optimal control
+#           url: /yopOcp
+#         - title: Simulation
+#           url: /yopSimulator

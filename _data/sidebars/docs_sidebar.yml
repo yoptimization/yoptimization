@@ -1,0 +1,84 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: sidebar
+  product: Yop documentation
+  folders:
+
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage.html
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage.html
+      output: pdf
+      type: frontmatter
+
+  - title: Getting started
+    output: web, pdf
+    folderitems:
+
+    - title: Getting started
+      url: /gettingStarted
+      output: web, pdf
+      type: homepage
+
+  - title: YopSystem
+    output: web, pdf
+    folderitems:
+
+    - title: Overview
+      url: /yopSystemOverview
+      output: web, pdf
+
+    - title: Declaration
+      url: /yopSystem
+      output: web, pdf
+
+    - title: Connections
+      url: /connections
+      output: web, pdf
+
+    - title: Modeling limitations
+      url: /yopSystemLimitations
+      output: web, pdf
+
+    - title: Independent variable
+      url: /independent
+      output: web, pdf
+
+  - title: Optimal control
+    output: web, pdf
+    folderitems:
+
+    - title: Overview
+      url: /yopOcp
+      output: web, pdf
+
+    - title: Formulating OCPs
+      url: /formulatingOptimalControlProblems
+      output: web, pdf
+
+    - title: Initial guess
+      url: /initialGuess
+      output: web, pdf
+
+    - title: Solving OCPs
+      url: /solvingOcps
+      output: web, pdf
+
+  - title: Simulation
+    output: web, pdf
+    folderitems:
+
+    - title: Overview
+      url: /simulationOverview
+      output: web, pdf
+
+    - title: Simulation
+      url: /yopSimulator
+      output: web, pdf

@@ -2,6 +2,58 @@ body {
     font-size:15px;
 }
 
+/********* Simple or original overlay *******/
+/* Main container */
+.overlay-image {
+    position: relative;
+    width: 100%;
+}
+/* Original image */
+.overlay-image .image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+/* Original text overlay */
+.overlay-image .text {
+    color: #000;
+    font-size: 36px;
+    line-height: 1.5em;
+    text-align: left;
+    padding-left: 0px;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+.overlay-image .subtext {
+    color: #000;
+    font-size: 20px;
+    line-height: 1.5em;
+    text-align: left;
+    padding-top: 55px;
+    padding-left: 0px;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+.overlay-image .imgbutton {
+    color: #000;
+    font-size: 20px;
+    line-height: 1.5em;
+    text-align: left;
+    padding-top: 100px;
+    padding-left: 0px;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
 .bs-callout {
     padding: 20px;
     margin: 20px 0;

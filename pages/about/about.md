@@ -2,7 +2,7 @@
 title: "About Yop"
 last_updated: May 5, 2019
 keywords: about, people, funding
-sidebar: mydoc_sidebar
+sidebar: about_sidebar
 permalink: about
 folder: about
 toc: false

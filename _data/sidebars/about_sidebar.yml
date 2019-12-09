@@ -1,0 +1,63 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: sidebar
+  product: Yop
+  folders:
+
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage.html
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage.html
+      output: pdf
+      type: frontmatter
+
+  - title: About
+    output: web, pdf
+    folderitems:
+
+    - title: About Yop
+      url: /about
+      output: web, pdf
+
+    - title: Citing Yop
+      url: /citations
+      output: web, pdf
+
+  - title: Benchmark
+    output: web, pdf
+    folderitems:
+
+    - title: Benchmark
+      url: /benchmark
+      output: web, pdf
+
+    - title: Goddard rocket benchmark
+      url: /goddard_benchmark
+      output: web, pdf
+
+  - title: Navigating Yop
+    output: web, pdf
+    folderitems:
+
+    - title: Navigating yoptimization.com
+      url: /keywords
+      output: web, pdf
+
+    - title: Navigating the GitHub 
+      url: /github
+      output: web, pdf
+
+  - title: Install
+    output: web, pdf
+    folderitems:
+
+    - title: Installation guide
+      url: /install
+      output: web, pdf

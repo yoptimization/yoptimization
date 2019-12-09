@@ -2,7 +2,7 @@
 title: "Getting started with Yop"
 last_updated: May 4, 2019
 keywords: Getting stared, basics, YopSystem, YopSimulator, YopOcp
-sidebar: mydoc_sidebar
+sidebar: docs_sidebar
 permalink: gettingStarted
 folder: gettingStarted
 toc: false
