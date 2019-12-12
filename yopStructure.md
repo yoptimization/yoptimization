@@ -215,6 +215,7 @@ Have a https://idratherbewriting.com/documentation-theme-jekyll/p2_sample5.html 
   
 * Have a learning page (maybe under resources) where we link to educational sources about optimal control
   * Inspiration: https://www.tensorflow.org/resources/learn-ml 
+  * Use this in combination with minphase.com, so that minphase can have a collection of optimal control resources
 
 
 
