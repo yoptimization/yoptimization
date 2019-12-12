@@ -3,7 +3,7 @@
 # Structure for Yop
 Notes on how to structure the environment around Yop.
 
-## Github
+# Github
 * Organization: Yoptimization
   * hosts the repositorys for Yop, yoptimization.com, example files
 * Yop repository with the toolbox
@@ -13,35 +13,16 @@ Notes on how to structure the environment around Yop.
 * Yoptimization repository hosting the website.
   * Readme that that tells what the repo is for and how to submit edits and so on
   * **TODO:** look into issues for github a bit and how they can be used for the website repo
+* Examples repo???
+  * Repo with all the available examples from the website, so that they can be downloaded and such
+  * could be annoying if its not updated since then it can diff from the website..
 
 
-## Website
-* Home page: Selling page with no sidebar
+
+# Website
 
 
-* About tab: about sidebar
-  * about Yop: also about landing page
-  * Citing Yop
-  * Navigating Yoptimization.com
-  * Navigating GitHub
-  * **TODO: Benchmark here? or somewhere else? **
-
-
-* benchmark pages
-* Use cases tab: No sidebar?
-* Download tab: 
-* Docs tab: has it own sidebar
-  * can we use the generated documentation from matlab?
-* Examples/tutorials tab: has its own sidebar
-* Github link: maybe to the organization?
-
-### Sidebars
-* About
-* Docs
-* Examples
-
-
-### Topnav
+## Topnav The main navigation bar for the website, located at the top
 From left to right:
 * yoptimization.com: links to homepage
 * about: about page
@@ -50,11 +31,27 @@ From left to right:
 * Download: install page
 * Github: links to github organization or yop repository? **TODO: decide where to link (probably yop repo)!!!**
 
-### Home page: Selling page with no sidebar
-Needs 3-4 reasons to use Yop instead of the competition. Benchmark page is good but the reasons needs to be listen on the front page.
-Also needs 3-4 use cases for optimization.
-Can end up as 4 combinations of it?
+## Main pages that are available from the topnav.
 
+
+---------------------------------------------------------------------------------------------
+### Home page (no sidebar)
+Page to tell what Yop is and why you should use it.
+Inspiration from https://www.tensorflow.org/ https://pytorch.org/
+
+#### Items on the home page from top to bottom:
+* Image of Yop code in matlab editor: Things inside or next to image:
+  * Download link
+  * Text with name and slogan: e.g. "Yop - makes optimization easy"
+* A why yop section
+* Needs 2-4 reasons to use Yop instead of the competition.
+  * Show examples or link to the reasons Yop is good.
+  * Also link to benchmark page.
+* Needs 2-4 use cases for Yop.
+  * Show examples or link to examples of the use cases.
+
+
+#### 2 Reasons why Yop is good.
 * Easy to use:
   * can use your normal matlab ODE (and DAE?) models
   * Easy to fit into your workflow with little or no modification.
@@ -65,23 +62,163 @@ Can end up as 4 combinations of it?
   * The problem can be expressed in the right domain.
   * abstracted so that the problem can be expressed as a continuous time optimal control problem instead of a nonlinear optimization problem which usually is the case for CasADi.
 
+---------------------------------------------------------------------------------------------
+### About page
+* What is yop in more detail
+* People of yop
+* How to get involved? (Maybe in the future)
+* Citing Yop
+* 
 
 
-#### Items on the home page from top to bottom:
-* Image of Yop code in matlab editor: Things inside or next to image:
-  * Download link
-  * Text with name and slogan: e.g. "Yop - makes optimization easy"
-* Use cases: list at least four examples of use cases that has links that jump you down to an explanation of them.
-* Use case 1:
-* Use case 2:
-* Use case 3:
-* Use case 4: 
+---------------------------------------------------------------------------------------------
+### Docs landing page
 
-* Use case examples for Yop:
-  * 1: Modelling and testing your system (goes into testing)
-  * 2: Benchmarking your system which can be used as a motivation to upgrade your controller, or something in your system.
-  * 3: optimizing, ofc
-  * 4: controlling
-  * 5: ??
+
+
+
+
+---------------------------------------------------------------------------------------------
+### Examples landing page
+Page that tells you what examples and tutorials are available. Needs to tell you where to 
+start if you're a beginner. Also needs to show different things that can be done with yop and 
+how to do them. For example pareto front tutorial so the user knows that it can be done and 
+how to do it.
+
+https://www.tensorflow.org/tutorials/ 
+
+
+
+
+---------------------------------------------------------------------------------------------
+### Download page
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------------
+
+#### 2 Use cases for Yop
+* Modelling
+  * Yop lets you use your existing ODE models, so that you can just jump in and start optimizing them.
+* Optimizing
+  * Easy to setup and test different optimal control problems so you get the solution that you're after.
+
+## Sidebars
+The sidebar will differentiate between different section of the website. So that for instance the docs feels separated from the examples.
+
+The different sidebars that should be available.
+* About
+* Docs
+* Examples
+
+* About sidebar
+  * about Yop: also about landing page
+  * Citing Yop
+  * Navigating Yoptimization.com
+  * Navigating GitHub
+  * **TODO: Benchmark here? or somewhere else? **
+
+* Docs sidebar
+  * the different docs
+
+* Examples sidebar
+  * optimal control examples
+  * simulation examples
+  * tutorials/guides
+
+
+* benchmark pages
+* Use cases tab: No sidebar?
+* Download tab: 
+* Docs tab: has it own sidebar
+  * can we use the generated documentation from matlab?
+* Examples/tutorials tab: has its own sidebar
+* Github link: maybe to the organization?
+
+
+
+# Tutorials
+
+* Pareto front tutorial
+* Parameterize the control signal
+  * piecewise constant
+  * piecewise polynomial
+* simulating the system
+  * Adding noise to the optimal solution
+  * simulating piece-wise constant, polynomial control signals
+* Initial guess
+  * Without simulation
+  * with simulation
+  * creating a controller for the initial guess
+* Modelling your system tutorial
+  * yopIfElse, yopInterpolant, logistic-function
+  * Adding states 
+  * Simulating sensors
+  * implementing a controller
+* Debugging your results
+  * Have a suboptimal solution and show the importance of an initial guess
+    * e.g. using single pendulum sidestep.
+  * Is the solution unique and what does that entail?
+    * How can we make it unique?
+* Numerical sensitivity analysis of your solution
+
+Different tutorials that should be included:
+
+* Getting started
+  * How to download and install
+    * Maybe a quick test to see if its working?
+  * How to make a optimization problem
+  * How to make an optimal control problem
+  * How to plot
+    * Normal state and control plotting
+      * have a Zermelo or Brachistochrone curve problem to show plotting states against eachother? 
+    * Show how to plot more complex functions
+      * E.g. plot a simulated sensor
+      * Can you plot functions such as min(max(u,-1),1)?
+      * plot integral(u)
+* Adding states 
+  * For example adding an extra state to control the derivative instead.
+  * To simulate sensors
+* Adding a controller
+  * optimizing the controller
+    * with the optimal trajectory
+    * with several/random trajectories over several phases
+      * plotting the diff from trajectories for each phase
+  * optimizing with the controller
+* Initial guess
+  * by simulation
+  * by simulation with a controller
+
+
+
+
+## Bryson Denham basic tutorial
+Have a https://idratherbewriting.com/documentation-theme-jekyll/p2_sample5.html style tutorial with the following steps:
+
+* basics
+* Different ways of solving Bryson Denham
+* Initial guess
+* Pareto front
+
+
+
+
+
+# Ideas for the website
+* have a resources tab where you can download different models, inspiration https://pytorch.org/hub/
+  * Maybe better when we have a more diverse set of tools to offer?
+  
+* Have a learning page (maybe under resources) where we link to educational sources about optimal control
+  * Inspiration: https://www.tensorflow.org/resources/learn-ml 
+
+
+
+
+
 
 

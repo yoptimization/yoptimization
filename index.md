@@ -10,24 +10,24 @@ comments: false
 ---
 <!-- {% include image.html file="yop_home_page.png" alt="homepage" caption="" %} -->
 <html>
-<div class="overlay-image"><a href="https://i.ytimg.com/vi/MPV2METPeJU/maxresdefault.jpg">
- <img class="image" src="images/yop_home_page.png" alt="Alt text" />
+<div class="overlay-image">
+ <img class="image" src="images/yop_home_page3.png" alt="Alt text" />
  <div class="text">Yop - optimal control made simple</div>
- <div class="subtext"></div>
- <div class="imgbutton" href="{{ "https://github.com/yoptimization/yop/releases"}}"><button type="button" class="btn btn-default" aria-label="Left Align"><span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span> Download Yop </button></div>
-</a></div>
+ <div class="subtext">A MATLAB Toolbox for Numerical Optimal Control based on CasADi.</div>
+ <a class="imgbutton" href="install"><button type="button" class="btn btn-default" aria-label="Left Align"><span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span> Download Yop </button></a>
+</div>
 </html>
 
 <!-- <a target="_blank" class="noCrossRef" href="{{ "https://github.com/yoptimization/yop/releases"}}"><button type="button" class="btn btn-default" aria-label="Left Align"><span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span> Download Yop </button></a> -->
 
 
 
-Yop is a MATLAB Toolbox for Numerical Optimal Control based on CasADi.
+<!-- Yop is a MATLAB Toolbox for Numerical Optimal Control based on CasADi. -->
 
 <!-- Buzzwords:
 easy to use, flexible, friendly abstracted user interface, intuitive,  -->
 
-<html>
+<!-- <html>
 <div class="row">
         <div class="col-lg-12">
             <h2 class="page-header">Use Cases</h2>
@@ -93,20 +93,20 @@ easy to use, flexible, friendly abstracted user interface, intuitive,  -->
             </div>
         </div>
     </div>
-    </html>
+    </html> -->
 
 
 
-## Easy to use
+# Yop is easy to use
 Yop has an intuitive syntax, can easily fit into the workflow of an engineer and makes tasks such as plotting easier.
 
-## Flexible
+# Intuitive syntax
 Express your problems as continuous time optimal control problems without losing functionality.
 
-## Modelling
+# Use your existing models
 Yop lets you use your existing ODE models, so that you can just jump in and start optimizing them.
 
-## Optimizing
+# Express and solve your optimization problems
 Easy to setup and test different optimal control problems so you get the solution that you're after. 
 
 
