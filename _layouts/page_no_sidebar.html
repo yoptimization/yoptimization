@@ -57,7 +57,9 @@ layout: default_no_sidebar
 
 {% include feedback-dropdown.html %}
 
-{% include disqus.html %}
+{% if page.comments %}
+    {% include disqus.html %}
+{% endif %}
 
 
 

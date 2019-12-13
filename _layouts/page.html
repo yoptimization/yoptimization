@@ -67,7 +67,10 @@ layout: default
     </div>
 
 {% include feedback-dropdown.html %}
-{% include disqus.html %}
+{% if page.comments %}
+    {% include disqus.html %}
+{% endif %}
+
 
 </div>
 
