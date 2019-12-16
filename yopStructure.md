@@ -62,6 +62,7 @@ Inspiration from https://www.tensorflow.org/ https://pytorch.org/
   * The problem can be expressed in the right domain.
   * abstracted so that the problem can be expressed as a continuous time optimal control problem instead of a nonlinear optimization problem which usually is the case for CasADi.
 
+#### 2 Reasons why you should optimize.
 ---------------------------------------------------------------------------------------------
 ### About page
 * What is yop in more detail
