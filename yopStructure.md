@@ -8,11 +8,11 @@ Notes on how to structure the environment around Yop.
   * hosts the repositorys for Yop, yoptimization.com, example files
 * Yop repository with the toolbox
   * Needs a README that explains how to install it, can be the same as on the website.
-  * Needs to update all versions to the releases tab.
+  * Should have all the releases of yop in the release tab.
   * **TODO:** Look into how to set upp issues so that we can use them easily.
 * Yoptimization repository hosting the website.
   * Readme that that tells what the repo is for and how to submit edits and so on
-  * **TODO:** look into issues for github a bit and how they can be used for the website repo
+  * **TODO:** look into issues for github and how they can be used for the website repo
 * Examples repo???
   * Repo with all the available examples from the website, so that they can be downloaded and such
   * could be annoying if its not updated since then it can diff from the website..
@@ -20,9 +20,11 @@ Notes on how to structure the environment around Yop.
 
 
 # Website
-
+The structure for the website.
 
 ## Topnav The main navigation bar for the website, located at the top
+The website will have different environments that is navigated between with the top navigation bar. The environments have their own side bar that makes it easy to navigate one topic at a time, e.g. navigating the docs without having to see examples and tutorials in the sidebar.
+
 From left to right:
 * yoptimization.com: links to homepage
 * about: about page
@@ -31,24 +33,55 @@ From left to right:
 * Download: install page
 * Github: links to github organization or yop repository? **TODO: decide where to link (probably yop repo)!!!**
 
-## Main pages that are available from the topnav.
+## Sidebars
+The different sidebars that separates the different environments from each other.
+
+The different sidebars that should be available are:
+* About sidebar
+  * about Yop: also about landing page
+  * Citing Yop
+  * Navigating Yoptimization.com
+  * Navigating GitHub
+  * **TODO: Benchmark here? or somewhere else? **
+
+* Docs sidebar
+  * the different docs
+
+* Examples sidebar
+  * optimal control examples
+  * simulation examples
+  * tutorials/guides
+
+
+Unclear things
+* benchmark pages
+* Use cases tab: No sidebar?
+* Download tab: 
+* Docs tab: has it own sidebar
+  * can we use the generated documentation from matlab?
+* Examples/tutorials tab: has its own sidebar
+* Github link: maybe to the organization?
 
 
 ---------------------------------------------------------------------------------------------
+## Main pages that are available from the topnav.
+
+
 ### Home page (no sidebar)
 Page to tell what Yop is and why you should use it.
-Inspiration from https://www.tensorflow.org/ https://pytorch.org/
+Inspiration from https://www.tensorflow.org/ and https://pytorch.org/
 
 #### Items on the home page from top to bottom:
 * Image of Yop code in matlab editor: Things inside or next to image:
   * Download link
-  * Text with name and slogan: e.g. "Yop - makes optimization easy"
+  * Text with name and slogan: e.g. "Yop - optimal control made simple"
 * A why yop section
 * Needs 2-4 reasons to use Yop instead of the competition.
   * Show examples or link to the reasons Yop is good.
   * Also link to benchmark page.
 * Needs 2-4 use cases for Yop.
   * Show examples or link to examples of the use cases.
+* Should have 2-4 reasons to use optimal control.
 
 
 #### 2 Reasons why Yop is good.
@@ -62,7 +95,8 @@ Inspiration from https://www.tensorflow.org/ https://pytorch.org/
   * The problem can be expressed in the right domain.
   * abstracted so that the problem can be expressed as a continuous time optimal control problem instead of a nonlinear optimization problem which usually is the case for CasADi.
 
-#### 2 Reasons why you should optimize.
+#### 2 Reasons why you should use optimal control.
+* Optimal control as a benchmark
 ---------------------------------------------------------------------------------------------
 ### About page
 * What is yop in more detail
@@ -74,8 +108,9 @@ Inspiration from https://www.tensorflow.org/ https://pytorch.org/
 
 ---------------------------------------------------------------------------------------------
 ### Docs landing page
-
-
+* Landing page explaining the different elements and lists available info
+* Should explain how to use the help commands in matlab
+* **TODO: ** can you use the generated docs from the matlab help command?
 
 
 
@@ -94,7 +129,9 @@ https://www.tensorflow.org/tutorials/
 ---------------------------------------------------------------------------------------------
 ### Download page
 
-
+* Installation guide
+  * List dependencies
+  * List tested configurations?
 
 
 
@@ -109,37 +146,6 @@ https://www.tensorflow.org/tutorials/
 * Optimizing
   * Easy to setup and test different optimal control problems so you get the solution that you're after.
 
-## Sidebars
-The sidebar will differentiate between different section of the website. So that for instance the docs feels separated from the examples.
-
-The different sidebars that should be available.
-* About
-* Docs
-* Examples
-
-* About sidebar
-  * about Yop: also about landing page
-  * Citing Yop
-  * Navigating Yoptimization.com
-  * Navigating GitHub
-  * **TODO: Benchmark here? or somewhere else? **
-
-* Docs sidebar
-  * the different docs
-
-* Examples sidebar
-  * optimal control examples
-  * simulation examples
-  * tutorials/guides
-
-
-* benchmark pages
-* Use cases tab: No sidebar?
-* Download tab: 
-* Docs tab: has it own sidebar
-  * can we use the generated documentation from matlab?
-* Examples/tutorials tab: has its own sidebar
-* Github link: maybe to the organization?
 
 
 
@@ -194,7 +200,9 @@ Different tutorials that should be included:
 * Initial guess
   * by simulation
   * by simulation with a controller
-
+* Simulating your system with your controller and comparing it to the optimal solution
+  * See what performance of the controller is necessary to get close to the optimal solution.
+    * Is the controller fast enough, can we use different sampling times on the feedback and so on.
 
 
 
